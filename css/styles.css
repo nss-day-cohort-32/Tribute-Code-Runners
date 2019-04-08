@@ -3,6 +3,10 @@ html, body {
   padding: 0;
   height: 100%;
 }
+.mainContent{
+    min-height: 100%;
+    margin-bottom: -50px;
+}
 
 .navbar {
   padding: 0 !important;
@@ -97,9 +101,11 @@ border-radius: 40px;
 }
 .footer ul{
     margin: 0 auto;
+
 }
 
 .footer li{
     display: inline-flex;
     flex-shrink: 0;
 }
+
