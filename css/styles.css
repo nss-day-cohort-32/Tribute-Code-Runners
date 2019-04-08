@@ -1,80 +1,80 @@
-html, body {
-margin: 0;
-padding: 0;
-height: 100%;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
-.mainContent{
-    min-height: 100%;
-    margin-bottom: -50px;
+.mainContent {
+  min-height: 100%;
+  margin-bottom: -50px;
 }
 
 .navbar {
-padding: 0 !important;
-width: 100%;
-display: block;
-position: fixed;
-z-index: 99;
+  padding: 0 !important;
+  width: 100%;
+  display: block;
+  position: fixed;
+  z-index: 99;
 }
 
 .navbar ul {
-list-style-type: none;
-margin: 0 auto;
-padding: 0;
-top: 0;
-width: 100%;
-background-color: #50582F;
-display: inline-block;
-position: fixed;
-font-family: staatliches, arial, sans-serif;
-border: 2px solid #50582F;
-border-radius: 5px;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  top: 0;
+  width: 100%;
+  background-color: #50582f;
+  display: inline-block;
+  position: fixed;
+  font-family: staatliches, arial, sans-serif;
+  border: 2px solid #50582f;
+  border-radius: 5px;
 }
 
 li {
-color: white;
+  color: white;
 }
 
 li a {
-display: block;
-color: white;
-padding: 14px 20px;
-text-decoration: none;
-float: right;
-background-color: #A3A772;
-border: 2px solid rgba(0, 0, 0, .51);
-border-radius: 40px;
+  display: block;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  float: right;
+  background-color: #a3a772;
+  border: 2px solid rgba(0, 0, 0, 0.51);
+  border-radius: 40px;
 }
 
 li a:hover {
-background-color: white;
-color: #3D3C3A;
-font-weight: bold;
-border: 2px solid #A3A772;
-border-radius: 40px;
+  background-color: white;
+  color: #3d3c3a;
+  font-weight: bold;
+  border: 2px solid #a3a772;
+  border-radius: 40px;
 }
 
 .nav-head {
-background-color: #A3A772;
-float: left;
-padding: 14px 16px;
-border: 2px solid rgba(0, 0, 0, .51);
-border-radius: 40px;
-} 
-
-
-.footer{
-    background-color: #50582F;
-    height: 50px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-}
-.footer ul{
-    margin: 0px;
+  background-color: #a3a772;
+  float: left;
+  padding: 14px 16px;
+  border: 2px solid rgba(0, 0, 0, 0.51);
+  border-radius: 40px;
 }
 
-.footer li{
-    display: inline-flex;
-    flex-shrink: 0;
+.footer {
+  background-color: #50582f;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.footer ul {
+  margin: 0px;
+}
+
+.footer li {
+  display: inline-flex;
+  flex-shrink: 0;
 }
