@@ -3,6 +3,10 @@ margin: 0;
 padding: 0;
 height: 100%;
 }
+.mainContent{
+    min-height: 100%;
+    margin-bottom: -50px;
+}
 
 .navbar {
 padding: 0 !important;
@@ -56,3 +60,21 @@ padding: 14px 16px;
 border: 2px solid rgba(0, 0, 0, .51);
 border-radius: 40px;
 } 
+
+
+.footer{
+    background-color: #50582F;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.footer ul{
+    margin: 0px;
+}
+
+.footer li{
+    display: inline-flex;
+    flex-shrink: 0;
+}
