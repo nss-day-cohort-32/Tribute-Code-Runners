@@ -23,7 +23,35 @@ html, body {
   position: fixed;
   font-family: staatliches, arial, sans-serif;
   border: 2px solid #50582F;
-  border-radius: 5px;
+}
+
+.mainContent {
+  min-height: 100%;
+  display: inline-block;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.personal {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.personal-list {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.personal-list li {
+  color: black;
+}
+
+.personal-list img {
+  height: 100px;
+  width: auto;
 }
 
 li {
@@ -50,9 +78,28 @@ li a:hover {
 }
 
 .nav-head {
-  background-color: #A3A772;
-  float: left;
-  padding: 14px 16px;
-  border: 2px solid rgba(0, 0, 0, .51);
-  border-radius: 40px;
+background-color: #A3A772;
+float: left;
+padding: 14px 16px;
+border: 2px solid rgba(0, 0, 0, .51);
+border-radius: 40px;
 } 
+
+
+.footer{
+    background-color: #50582F;
+    height: 50px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 0;
+}
+.footer ul{
+    margin: 0 auto;
+}
+
+.footer li{
+    display: inline-flex;
+    flex-shrink: 0;
+}
