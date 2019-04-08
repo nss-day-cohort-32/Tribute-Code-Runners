@@ -4,8 +4,11 @@ padding: 0;
 height: 100%;
 }
 .mainContent{
+    
     min-height: 100%;
-    margin-bottom: -50px;
+    display: inline-block;
+    width: 100%;
+    padding-top: 100px;
 }
 
 .navbar {
@@ -61,6 +64,16 @@ border: 2px solid rgba(0, 0, 0, .51);
 border-radius: 40px;
 } 
 
+.black_text li{
+    color: black;
+}
+
+.matrix{
+    width: 30%;
+    height: auto;
+    display: flex-inline;
+    justify-content: center;
+}
 
 .footer{
     background-color: #50582F;
@@ -69,6 +82,7 @@ border-radius: 40px;
     display: flex;
     justify-content: center;
     margin: auto;
+    position: absolute;
 }
 .footer ul{
     margin: 0px;
