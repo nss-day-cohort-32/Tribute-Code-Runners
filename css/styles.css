@@ -13,6 +13,7 @@ body {
 }
 
 .navbar {
+
   padding: 0 !important;
   width: 100%;
   display: block;
@@ -187,7 +188,6 @@ canvas {
         margin-bottom: -31px;
     }
     
-.matrix{
 .black_text li {
   color: black;
 }
