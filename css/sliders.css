@@ -47,6 +47,7 @@ cursor: pointer; /* Cursor on hover */
 .big-box {
     display: flex;
     justify-content: center;
+    font-family: "Share Tech Mono", monospace;
 }
 
 .box-within-a-box {
