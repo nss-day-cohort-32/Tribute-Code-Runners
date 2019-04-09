@@ -4,10 +4,6 @@ body {
   padding: 0;
   height: 100%;
 }
-.mainContent {
-  min-height: 100%;
-  margin-bottom: -50px;
-}
 
 .navbar {
   padding: 0 !important;
@@ -29,11 +25,6 @@ body {
   font-family: staatliches, arial, sans-serif;
   border: 2px solid #50582f;
   border-radius: 5px;
-  background-color: #50582f;
-  display: inline-block;
-  position: fixed;
-  font-family: staatliches, arial, sans-serif;
-  border: 2px solid #50582f;
 }
 
 .mainContent {
@@ -41,9 +32,6 @@ body {
   display: inline-block;
   width: 100%;
   padding-top: 100px;
-}
-.summary-list li {
-  color: black;
 }
 
 .personal {
@@ -117,20 +105,12 @@ li a:hover {
   display: inline-flex;
   flex-shrink: 0;
 }
-.footer {
-  background-color: #50582f;
-  height: 50px;
-  width: 100%;
-  display: inline-flex;
-  justify-content: center;
-  margin: 0 auto;
-  margin-bottom: 0;
-}
-.footer ul {
-  margin: 0 auto;
+
+#summaryTextColor {
+  text-align: center;
 }
 
-.footer li {
-  display: inline-flex;
-  flex-shrink: 0;
+#summaryTextColor li {
+  list-style-type: none;
+  color: black;
 }
