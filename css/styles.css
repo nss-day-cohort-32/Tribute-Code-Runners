@@ -1,10 +1,11 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
   background-color: black;
 }
-.mainContent{  
+.mainContent {
   min-height: 100%;
   display: inline-block;
   width: 100%;
@@ -25,18 +26,17 @@ html, body {
   padding: 0;
   top: 0;
   width: 100%;
-  background-color: #1B3300;
+  background-color: #1b3300;
   display: inline-block;
   position: fixed;
-  font-family: 'Share Tech Mono', monospace;
-  border: 0px solid #1B3300;
+  font-family: "Share Tech Mono", monospace;
+  border: 0px solid #1b3300;
 }
 
 /* #50582F -- last navbar background and border color  */
 
 .navbar li {
   color: white;
-
 }
 
 .navbar li a {
@@ -45,8 +45,8 @@ html, body {
   padding: 14px 20px;
   text-decoration: none;
   float: right;
-  background-color: #A3A772;
-  border: 2px solid rgba(0, 0, 0, .51);
+  background-color: #a3a772;
+  border: 2px solid rgba(0, 0, 0, 0.51);
   border-radius: 40px;
   width: 90px;
   text-align: center;
@@ -54,30 +54,30 @@ html, body {
 
 .navbar li a:hover {
   background-color: white;
-  color: #3D3C3A;
+  color: #3d3c3a;
   font-weight: bold;
-  border: 2px solid #A3A772;
+  border: 2px solid #a3a772;
   border-radius: 40px;
 }
 
 .nav-head {
-  background-color: #A3A772;
+  background-color: #a3a772;
   float: left;
   padding: 14px 16px;
-  border: 2px solid rgba(0, 0, 0, .51);
+  border: 2px solid rgba(0, 0, 0, 0.51);
   border-radius: 40px;
-} 
+}
 
 .nav-head li {
   height: 50px;
-  list-style-type: none;;
+  list-style-type: none;
 }
 
 .nav-head button {
   font-size: 1em;
   color: inherit;
-  font-family:inherit;
-  background-color: #A3A772;
+  font-family: inherit;
+  background-color: #a3a772;
   border: none;
   margin: 0;
   padding: 0;
@@ -92,21 +92,21 @@ html, body {
   display: inline-block;
   width: 100%;
   padding-top: 100px;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: "Share Tech Mono", monospace;
   background-color: black;
 }
 
 .personal {
   width: 80%;
   margin: 0 auto;
-  color: #396E00;
+  color: #396e00;
   background-color: black;
 }
 
 .personal h2 {
   text-decoration: underline;
   text-align: center;
-  color: rgba(255, 255, 255, .9);
+  color: rgba(255, 255, 255, 0.9);
 }
 .personal p {
   text-align: center;
@@ -123,7 +123,7 @@ html, body {
 }
 
 .personal-list li {
-  color: #396E00;
+  color: #396e00;
 }
 
 .personal-list img {
@@ -172,8 +172,6 @@ canvas {
     content: 'WOAH!';
 }
 
-
-
 .woah::after {
         content: '';
         position: absolute;
@@ -189,19 +187,20 @@ canvas {
         margin-bottom: -31px;
     }
     
-
-
-
-
 .matrix{
+.black_text li {
+  color: black;
+}
+
+.matrix {
   width: 30%;
   height: auto;
   display: flex-inline;
   justify-content: center;
 }
 
-.footer{
-  background-color: #1B3300;
+.footer {
+  background-color: #1b3300;
   height: 50px;
   width: 100%;
   display: inline-flex;
@@ -211,9 +210,9 @@ canvas {
   list-style-type: none;
 }
 
-.footer ul{
+.footer ul {
   margin: 0 auto;
-  background-color: #1B3300;
+  background-color: #1b3300;
 }
 
 .footer li a {
@@ -223,8 +222,17 @@ canvas {
   color: white;
   padding: 14px 20px;
   text-decoration: underline;
-  background-color: #A3A772;
-  border: 2px solid rgba(0, 0, 0, .51);
+  background-color: #a3a772;
+  border: 2px solid rgba(0, 0, 0, 0.51);
   border-radius: 40px;
   text-align: center;
+}
+
+#summaryTextColor {
+  text-align: center;
+  color: white;
+}
+
+#summaryTextColor li {
+  list-style-type: none;
 }
