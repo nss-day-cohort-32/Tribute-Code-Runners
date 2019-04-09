@@ -14,7 +14,6 @@
   <header>
     <nav class="navbar">
       <ul>
-        <li class="nav-head"><button>Woah</button></li>
         <li><a href="newsFeed.html">News Feed</a></li>
         <li><a href="personal.html">Personal</a></li>
         <li><a href="career.html">Career</a></li>
@@ -23,7 +22,12 @@
       </ul>
     </nav>
   </header>
+  
+  <canvas id="c"></canvas> <!-- here's the canvas -->
   <main class="mainContent">
+      <div class="woah"> <!-- not sure if this shoud be in mainContent or not.. -->
+        <button onclick="myFunction() ">woah</button>
+    </div>
     <div class="img-wrapper">
       <!-- plug image here!  -->
       <img class="index-img" src="images/keanu_transparent.png">
@@ -42,6 +46,7 @@
       <li><a href="https://www.archmotorcycle.com/" target="_blank">Arch Motorcycle</a></li>
     </ul>
   </footer>
+  <script src="scripts/scripts.js"></script>
 </body>
 
 </html>
