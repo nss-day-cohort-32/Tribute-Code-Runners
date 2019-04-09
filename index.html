@@ -10,20 +10,24 @@
   <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
 </head>
 
-  <body>
-    <header>
-      <nav class="navbar">
-        <ul>
-          <li class="nav-head">Woah.</li>
-          <li><a href="newsFeed">News Feed</a></li>
-          <li><a href="personal.html">Personal</a></li>
-          <li><a href="career.html">Career</a></li>
-          <li><a href="summary.html">Summary</a></link>
-          <li><a href="index.html">Home</a></li>
-        </ul>
-      </nav>
-    </header>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="newsFeed.html">News Feed</a></li>
+        <li><a href="personal.html">Personal</a></li>
+        <li><a href="career.html">Career</a></li>
+        <li><a href="summary.html">Summary</a></link>
+        <li><a href="#">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <canvas id="c"></canvas> <!-- here's the canvas -->
   <main class="mainContent">
+      <div class="woah"> <!-- not sure if this shoud be in mainContent or not.. -->
+        <button onclick="myFunction() ">woah</button>
+    </div>
     <div class="img-wrapper">
       <!-- plug image here!  -->
       <img class="index-img" src="images/keanu_transparent.png">
@@ -40,6 +44,7 @@
       <li><a href="https://www.archmotorcycle.com/" target="_blank">Arch Motorcycle</a></li>
     </ul>
   </footer>
+  <script src="scripts/scripts.js"></script>
 </body>
 
 </html>
