@@ -2,13 +2,13 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  background-color: black;
 }
-.mainContent{
-    
-    min-height: 100%;
-    display: inline-block;
-    width: 100%;
-    padding-top: 100px;
+.mainContent{  
+  min-height: 100%;
+  display: inline-block;
+  width: 100%;
+  padding-top: 100px;
 }
 
 .navbar {
@@ -25,47 +25,21 @@ html, body {
   padding: 0;
   top: 0;
   width: 100%;
-  background-color: #50582F;
+  background-color: #1B3300;
   display: inline-block;
   position: fixed;
-  font-family: staatliches, arial, sans-serif;
-  border: 2px solid #50582F;
+  font-family: 'Share Tech Mono', monospace;
+  border: 0px solid #1B3300;
 }
 
-.mainContent {
-  min-height: 100%;
-  display: inline-block;
-  width: 100%;
-  padding-top: 100px;
-}
+/* #50582F -- last navbar background and border color  */
 
-.personal {
-  text-align: center;
-  text-decoration: underline;
-}
-
-.personal-list {
-  display: flex;
-  width: 100%;
-  text-align: center;
-  list-style: none;
-  justify-content: space-around;
-}
-
-.personal-list li {
-  color: black;
-}
-
-.personal-list img {
-  height: 100px;
-  width: auto;
-}
-
-li {
+.navbar li {
   color: white;
+
 }
 
-li a {
+.navbar li a {
   display: block;
   color: white;
   padding: 14px 20px;
@@ -74,9 +48,11 @@ li a {
   background-color: #A3A772;
   border: 2px solid rgba(0, 0, 0, .51);
   border-radius: 40px;
+  width: 90px;
+  text-align: center;
 }
 
-li a:hover {
+.navbar li a:hover {
   background-color: white;
   color: #3D3C3A;
   font-weight: bold;
@@ -85,42 +61,122 @@ li a:hover {
 }
 
 .nav-head {
-background-color: #A3A772;
-float: left;
-padding: 14px 16px;
-border: 2px solid rgba(0, 0, 0, .51);
-border-radius: 40px;
+  background-color: #A3A772;
+  float: left;
+  padding: 14px 16px;
+  border: 2px solid rgba(0, 0, 0, .51);
+  border-radius: 40px;
 } 
 
+.nav-head li {
+  height: 50px;
+  list-style-type: none;;
+}
+
+.nav-head button {
+  font-size: 1em;
+  color: inherit;
+  font-family:inherit;
+  background-color: #A3A772;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-head button:focus {
+  outline: 0;
+}
+
+.mainContent {
+  min-height: 100%;
+  display: inline-block;
+  width: 100%;
+  padding-top: 100px;
+  font-family: 'Share Tech Mono', monospace;
+  background-color: black;
+}
+
+.personal {
+  width: 80%;
+  margin: 0 auto;
+  color: #396E00;
+  background-color: black;
+}
+
+.personal h2 {
+  text-decoration: underline;
+  text-align: center;
+  color: rgba(255, 255, 255, .9);
+}
+.personal p {
+  text-align: center;
+}
+
+.personal-list {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.personal-list li {
+  color: #396E00;
+}
+
+.personal-list img {
+  height: 100px;
+  width: auto;
+}
+
+.img-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.index-img {
+  margin: 0 auto;
+  display: block;
+}
+
 .black_text li{
-    color: black;
+  color: black;
 }
 
 .matrix{
-    width: 30%;
-    height: auto;
-    display: flex-inline;
-    justify-content: center;
+  width: 30%;
+  height: auto;
+  display: flex-inline;
+  justify-content: center;
 }
 
 .footer{
-    background-color: #50582F;
-    height: 50px;
-    width: 100%;
-    display: inline-flex;
-    justify-content: center;
-
-    margin: 0 auto;
-    margin-bottom: 0;
-
+  background-color: #1B3300;
+  height: 50px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 0;
+  list-style-type: none;
 }
+
 .footer ul{
-    margin: 0 auto;
-
+  margin: 0 auto;
+  background-color: #1B3300;
 }
 
-.footer li{
-    display: inline-flex;
-    flex-shrink: 0;
+.footer li a {
+  display: inline-flex;
+  flex-shrink: 0;
+  display: block;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: underline;
+  background-color: #A3A772;
+  border: 2px solid rgba(0, 0, 0, .51);
+  border-radius: 40px;
+  text-align: center;
 }
-
