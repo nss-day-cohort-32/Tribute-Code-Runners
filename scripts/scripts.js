@@ -46,5 +46,13 @@ function myFunction() {
     }
     setInterval(draw, 10); //change this number to inc/dec speed
 }
+/*
+var audio = document.getElementById("clip");
+$("div button").mouseenter (function() {
+    
+    audio.play();
+});
+*/
+
 
 

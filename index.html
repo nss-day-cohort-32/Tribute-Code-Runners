@@ -8,6 +8,7 @@
   <title>Keanu Reeves</title>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -22,16 +23,18 @@
       </ul>
     </nav>
   </header>
-  
   <canvas id="c"></canvas> <!-- here's the canvas -->
   <main class="mainContent">
-      <div class="woah"> <!-- not sure if this shoud be in mainContent or not.. -->
-        <button onclick="myFunction() ">woah</button>
+    <div class="sunglasses_function_div">
+      <div  class="woah"> <!-- not sure if this shoud be in mainContent or not.. -->
+        <button id="index_button"  onclick="myFunction() " ><span>..I can dodge bullets?</span></button>
     </div>
     <div class="img-wrapper">
       <!-- plug image here!  -->
       <img class="index-img" src="images/keanu_transparent.png">
+      <img class="index-img2" src="images/neo_sunglasses.png" alt="Neos sunglasses">
     </div>
+  </div>
 
   </main>
   <footer>
